@@ -7,4 +7,7 @@ export default class App extends Component{
       .then(res=>res.json())
       .then(people=>console.log(people))
   }
+  render(){
+    return()
+  }
 }
